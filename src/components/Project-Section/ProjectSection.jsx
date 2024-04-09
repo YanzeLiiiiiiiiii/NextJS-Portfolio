@@ -8,20 +8,56 @@ const projectsData = [
         id: 1,
         title: "Next.js Foodies Website",
         description: "Next.js+ APP Router + CRUD meals from local database",
-        image: "/images/projects/1.gif",
+        image: "/images/1.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/YanzeLiiiiiiiiii/Next.js-Foodies-Website",
-        previewUrl: "/",
+        previewUrl: "https://foodie-app-smoky.vercel.app",
     },
     {
         id: 2,
-        title: "Next.js Foodies Website",
-        description: "Next.js+ APP Router + CRUD meals from local database",
-        image: "/images/projects/1.gif",
+        title: "Notion Clone Project",
+        description: "Next.js 14 + Convex + Tailwind CSS + TypeScript + Edge Store",
+        image: "/images/3.PNG",
         tag: ["All", "Full-Stack"],
-        gitUrl: "https://github.com/YanzeLiiiiiiiiii/Next.js-Foodies-Website",
-        previewUrl: "/",
-    }
+        gitUrl: "https://github.com/YanzeLiiiiiiiiii/Next.js-NotionClone-Project",
+        previewUrl: "http://note-clone-app.vercel.app",
+    },
+    {
+        id: 3,
+        title: "News Management System",
+        description: "Node + React + Redux + Ant Design + Json Server",
+        image: "/images/2.PNG",
+        tag: ["All", "Full-Stack"],
+        gitUrl: "https://github.com/YanzeLiiiiiiiiii/React-NewsManagementSystem",
+        previewUrl: null,
+    },
+       {
+        id: 4,
+        title: "Personal Portfolio",
+        description: "Next.js 14 + Tailwind CSS + Email Function",
+        image: "/images/4.PNG",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/YanzeLiiiiiiiiii/Next.js-Portfolio",
+        previewUrl: "https://next-js-portfolio-rho-sooty.vercel.app",
+    },
+    {
+        id: 5,
+        title: "Saving Animal App",
+        description: "ASP.NET MVC + Bootstrap+ jQuery+ html5",
+        image: "/images/5.PNG",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/YanzeLiiiiiiiiii/.Net.Mvc-AnimalSaving-Web",
+        previewUrl: null,
+    },
+    // {
+    //     id: 2,
+    //     title: "Next.js Foodies Website",
+    //     description: "Next.js+ APP Router + CRUD meals from local database",
+    //     image: "/images/projects/5.PNG",
+    //     tag: ["All", "Full-Stack"],
+    //     gitUrl: "https://github.com/YanzeLiiiiiiiiii/Next.js-Foodies-Website",
+    //     previewUrl: "/",
+    // }
 ]
 
 const cardVariants = {
@@ -79,7 +115,8 @@ export default function ProjectSection() {
                             title={item.title}
                             description={item.description}
                             imgUrl={item.image}
-                            gitUrl={item.gitUrl} />
+                            gitUrl={item.gitUrl}
+                            previewUrl={item.previewUrl}/>
                     </motion.li>
                 )
 
