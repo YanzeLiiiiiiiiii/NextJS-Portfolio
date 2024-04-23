@@ -16,15 +16,15 @@ const TAB_DATA = [
             </ul>
         ),
     },
-    {
-        title: "Certification",
-        id: "certification",
-        content: (
-            <ul className="list-disc pl-2 text-[#ADB7BE]">
-                <li>AWS Certified Solutions Architect - Associater</li>
-            </ul>
-        ),
-    },
+    // {
+    //     title: "Certification",
+    //     id: "certification",
+    //     content: (
+    //         <ul className="list-disc pl-2 text-[#ADB7BE]">
+    //             <li>AWS Certified Solutions Architect - Associater</li>
+    //         </ul>
+    //     ),
+    // },
 ];
 
 
@@ -62,12 +62,12 @@ export default function About() {
                             Skills
                         </TabBu>
 
-                        <TabBu selectTab={() => {
+                        {/* <TabBu selectTab={() => {
                             changeHandler('certification')
                         }}
                             active={tab === 'certification'}>
                             Certification
-                        </TabBu>
+                        </TabBu> */}
                     </div>
                     <div className='mt-4'>
                         {TAB_DATA.find(item => item.id === tab).content}
