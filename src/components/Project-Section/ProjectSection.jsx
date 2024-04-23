@@ -47,8 +47,8 @@ const projectsData = [
         description: "Next.js 14 + Tailwind CSS + Email Function",
         image: "/images/4.png",
         tag: ["All", "Web"],
-        gitUrl: "https://github.com/YanzeLiiiiiiiiii/Next.js-Portfolio",
-        previewUrl: "https://next-js-portfolio-rho-sooty.vercel.app",
+        gitUrl: "https://github.com/YanzeLiiiiiiiiii/NextJS-Portfolio",
+        previewUrl: "https://portfolio-gamma-henna-57.vercel.app/",
     },
     {
         id: 6,
@@ -59,7 +59,15 @@ const projectsData = [
         gitUrl: "https://github.com/YanzeLiiiiiiiiii/.Net.Mvc-AnimalSaving-Web",
         previewUrl: null,
     },
-
+    // {
+    //     id: 2,
+    //     title: "Next.js Foodies Website",
+    //     description: "Next.js+ APP Router + CRUD meals from local database",
+    //     image: "/images/projects/5.PNG",
+    //     tag: ["All", "Full-Stack"],
+    //     gitUrl: "https://github.com/YanzeLiiiiiiiiii/Next.js-Foodies-Website",
+    //     previewUrl: "/",
+    // }
 ]
 
 const cardVariants = {
