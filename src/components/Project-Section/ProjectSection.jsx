@@ -47,8 +47,8 @@ const projectsData = [
         description: "Next.js 14 + Tailwind CSS + Email Function",
         image: "/images/4.png",
         tag: ["All", "Web"],
-        gitUrl: "https://github.com/YanzeLiiiiiiiiii/Next.js-Portfolio",
-        previewUrl: "https://next-js-portfolio-rho-sooty.vercel.app",
+        gitUrl: "https://github.com/YanzeLiiiiiiiiii/NextJS-Portfolio",
+        previewUrl: "https://portfolio-gamma-henna-57.vercel.app/",
     },
     {
         id: 6,
