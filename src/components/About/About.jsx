@@ -9,22 +9,22 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className="list-disc pl-2 text-[#ADB7BE]">
-                <li>C#,   .NET Core</li>
-                <li>Mysql, Linux, Doctor</li>
+                <li>C#,.Net</li>
+                <li>Mysql,Linux,Docker,Nginx,K8s </li>
                 <li>Next.js, Tailwind CSS</li>
-                <li>MongoDB,  Express,  React, and  Node. js,</li>
+                <li>MongoDB,  Express,  React, and  Node. js</li>
             </ul>
         ),
     },
-    // {
-    //     title: "Certification",
-    //     id: "certification",
-    //     content: (
-    //         <ul className="list-disc pl-2 text-[#ADB7BE]">
-    //             <li>AWS Certified Solutions Architect - Associater</li>
-    //         </ul>
-    //     ),
-    // },
+    {
+        title: "Certification",
+        id: "certification",
+        content: (
+            <ul className="list-disc pl-2 text-[#ADB7BE]">
+                <li>AWS Certified Solutions Architect - Associater</li>
+            </ul>
+        ),
+    },
 ];
 
 
@@ -62,12 +62,12 @@ export default function About() {
                             Skills
                         </TabBu>
 
-                        {/* <TabBu selectTab={() => {
+                        <TabBu selectTab={() => {
                             changeHandler('certification')
                         }}
                             active={tab === 'certification'}>
                             Certification
-                        </TabBu> */}
+                        </TabBu>
                     </div>
                     <div className='mt-4'>
                         {TAB_DATA.find(item => item.id === tab).content}
